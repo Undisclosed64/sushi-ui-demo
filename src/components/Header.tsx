@@ -17,13 +17,13 @@ export function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#menu" className="body-md text-foreground hover:text-accent transition-colors">
+            <a href="#menu" className="body-md text-primary font-medium hover:text-accent transition-colors">
               Menu
             </a>
-            <a href="#about" className="body-md text-foreground hover:text-accent transition-colors">
+            <a href="#about" className="body-md text-primary font-medium hover:text-accent transition-colors">
               About
             </a>
-            <a href="#location" className="body-md text-foreground hover:text-accent transition-colors">
+            <a href="#location" className="body-md text-primary font-medium hover:text-accent transition-colors">
               Location
             </a>
           </nav>
@@ -65,21 +65,21 @@ export function Header() {
             <nav className="container mx-auto px-6 py-6 flex flex-col gap-4">
               <a
                 href="#menu"
-                className="body-md text-foreground hover:text-accent transition-colors py-2"
+                className="body-md text-primary font-medium hover:text-accent transition-colors py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Menu
               </a>
               <a
                 href="#about"
-                className="body-md text-foreground hover:text-accent transition-colors py-2"
+                className="body-md text-primary font-medium hover:text-accent transition-colors py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
               </a>
               <a
                 href="#location"
-                className="body-md text-foreground hover:text-accent transition-colors py-2"
+                className="body-md text-primary font-medium hover:text-accent transition-colors py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Location
