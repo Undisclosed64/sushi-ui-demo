@@ -106,3 +106,6 @@ This project uses Tailwind CSS v4 with the following features:
 - [Vite Documentation](https://vite.dev)
 - [Tailwind CSS v4 Documentation](https://tailwindcss.com/docs)
 - [shadcn/ui Documentation](https://ui.shadcn.com)
+
+
+// Add a blog section to our page using this figma reference. it doesnt have to copy the same images and dark theme. just do whats apt for our theme and style. implement an elevated version of this reference that goes really well with our site. have a single blog page too where i can read a blog by clicking

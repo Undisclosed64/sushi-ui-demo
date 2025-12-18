@@ -1,5 +1,5 @@
-import { MapPin, Clock, Phone, Mail } from 'lucide-react';
-import { motion } from 'framer-motion';
+import { MapPin, Clock, Phone, Mail } from "lucide-react";
+import { motion } from "framer-motion";
 
 export function LocationSection() {
   return (
@@ -12,8 +12,14 @@ export function LocationSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <p className="caption text-accent uppercase tracking-wider mb-2">Visit Us</p>
-          <h2 className="heading-xl text-foreground">Location & Hours</h2>
+          <p className="caption text-accent uppercase tracking-wider mb-2">
+            Visit Us
+          </p>
+          <h2 className="heading-xl text-foreground">
+            Location
+            <span className="text-accent"> & </span>
+            Hours
+          </h2>
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -46,7 +52,8 @@ export function LocationSection() {
                 <div>
                   <h3 className="heading-md text-foreground mb-1">Address</h3>
                   <p className="body-md text-muted-foreground">
-                    123 Sakura Street<br />
+                    123 Sakura Street
+                    <br />
                     San Francisco, CA 94102
                   </p>
                 </div>
@@ -67,7 +74,9 @@ export function LocationSection() {
                 <Phone className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="heading-md text-foreground mb-1">Phone</h3>
-                  <p className="body-md text-muted-foreground">(415) 555-0123</p>
+                  <p className="body-md text-muted-foreground">
+                    (415) 555-0123
+                  </p>
                 </div>
               </div>
             </div>
@@ -85,13 +94,17 @@ export function LocationSection() {
               <div className="space-y-2">
                 <h3 className="heading-lg text-foreground">Stay Updated</h3>
                 <p className="body-md text-muted-foreground">
-                  Subscribe to our newsletter for exclusive offers, new menu items, and special events.
+                  Subscribe to our newsletter for exclusive offers, new menu
+                  items, and special events.
                 </p>
               </div>
 
               <form className="space-y-4">
                 <div>
-                  <label htmlFor="name" className="body-sm font-medium mb-2 block text-foreground">
+                  <label
+                    htmlFor="name"
+                    className="body-sm font-medium mb-2 block text-foreground"
+                  >
                     Name
                   </label>
                   <input
@@ -103,7 +116,10 @@ export function LocationSection() {
                 </div>
 
                 <div>
-                  <label htmlFor="email" className="body-sm font-medium mb-2 block text-foreground">
+                  <label
+                    htmlFor="email"
+                    className="body-sm font-medium mb-2 block text-foreground"
+                  >
                     Email
                   </label>
                   <div className="relative">

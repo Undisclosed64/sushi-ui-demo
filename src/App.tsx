@@ -4,7 +4,7 @@ import { HeroSection } from "./components/HeroSection";
 import { SpecialsSection } from "./components/SpecialsSection";
 import { MenuSection } from "./components/MenuSection";
 import { ChefSection } from "./components/ChefSection";
-import { TestimonialsSection } from "./components/TestimonialsSection";
+import { BlogSection } from "./components/BlogSection";
 import { LocationSection } from "./components/LocationSection";
 import { Footer } from "./components/Footer";
 
@@ -17,7 +17,7 @@ function CurrentLayout() {
         <SpecialsSection />
         <MenuSection />
         <ChefSection />
-        <TestimonialsSection />
+        <BlogSection />
         <LocationSection />
       </main>
       <Footer />
